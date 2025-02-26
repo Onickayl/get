@@ -14,7 +14,7 @@ GPIO.setup(comp, GPIO.IN)
 def dec2bin(value):
     return [int(elem) for elem in bin(value)[2:].zfill(8)]
 
-def adc()
+def adc():
     for i in range(256):
         time.sleep(0.0014)
         GPIO.output(dac, dec2bin(i))
