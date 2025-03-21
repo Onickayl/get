@@ -65,7 +65,6 @@ def adc():
         elem = elem - 1
     else:
         elem = elem + 1
-    
         
         
 try:
